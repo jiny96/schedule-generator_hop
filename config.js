@@ -7,6 +7,6 @@ window.SCHEDULE_CONFIG = {
 
   // Google Apps Script 웹앱 배포 URL
   // 형식: https://script.google.com/macros/s/XXXXXX/exec
-  APPS_SCRIPT_URL: 'https://script.google.com/macros/s/AKfycbyXjsdqoNiCfkxJbt_syXgcHxGnk8ZgSr7rhMsFNxYE2KBmGBhT1VFL3tGkonP6XQWS/exec',
+  APPS_SCRIPT_URL: 'https://script.google.com/macros/s/AKfycbxI1xTCdkPVAvXp6nr2inKDMzsdYA9n_esQDik2DBa-WRwR1_y6ApvLCAXv0NnKmXuN/exec',
 
 };

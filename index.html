@@ -604,7 +604,7 @@ function buildRows(){
         const[th,tmm]=tm.split(':').map(Number);
         const s=new Date(d);s.setHours(th,tmm,0,0);
         const dp=new Date(s);dp.setHours(2,0,0,0);const cr=new Date(s);cr.setHours(2,0,0,0);
-        rows.push(mkRow(srl++,ver,tid,dp,cr,new Date(s.getTime()-5*60000),new Date(s.getTime()-5*60000),s,reg));
+        rows.push(mkRow(srl++,ver,tid,dp,cr,new Date(s.getTime()-10*60000),new Date(s.getTime()-10*60000),s,reg));
       }
     }
   }else{
@@ -622,7 +622,7 @@ function buildRows(){
       for(const item of tpl){
         if(isF&&item.tot<fromMin)continue;if(isL&&item.tot>toMin)continue;
         const s=new Date(d);s.setHours(item.th,item.tmm,0,0);
-        rows.push(mkRow(srl++,ver,item.tid,new Date(s.getTime()-48*3600000),new Date(s.getTime()-24*3600000),new Date(s.getTime()-5*60000),new Date(s.getTime()-3*60000),s,reg));
+        rows.push(mkRow(srl++,ver,item.tid,new Date(s.getTime()-48*3600000),new Date(s.getTime()-24*3600000),new Date(s.getTime()-10*60000),new Date(s.getTime()-10*60000),s,reg));
       }
     }
   }
